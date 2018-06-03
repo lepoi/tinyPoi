@@ -50,7 +50,7 @@ regresa { column_count += 7; last_input = yytext; return FUNC_R; }
 
 num(\[\])?[^a-zA-Z10-9]	{ column_count += strlen(yytext); last_input = yytext; return T_DATO; }
 cad(\[\])?[^a-zA-Z10-9]	{ column_count += strlen(yytext); last_input = yytext; return T_DATO; }
-[a-zA-Z][a-zA-Z10-9]*	{ column_count += strlen(yytext); last_input = yytext; return VARIABLE_N; }
+[a-zA-Z_][a-zA-Z10-9_]*	{ column_count += strlen(yytext); last_input = yytext; return VARIABLE_N; }
 
 \n		{ line_count++; column_count = 0; }
 . 		column_count += 1;
