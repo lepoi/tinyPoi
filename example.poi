@@ -1,0 +1,20 @@
+funcion fizzbuzz (num n) {
+	para (num i = 0; i < n; i = i + 1) {
+		si ((n % 3 == 0) & (n % 5 == 0)) {
+			> "fizzbuzz\n";
+		}
+		sino (n % 3 == 0) {
+			> "fizz\n";
+		}
+		sino (n % 5 == 0) {
+			> "buzz\n";
+		};
+	};
+};
+
+cad a = fizzbuzz();
+? hola;
+
+si (n > "Xd") { > "Xd"; };
+
+cad xD = "[;]'.-==<>?:_\";\"++_";
