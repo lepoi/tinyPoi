@@ -1,4 +1,4 @@
-## tinyPoi
+# tinyPoi
 
 tinyPoi is a lexer for a fictional (for now) programming language I call "poi", it is also an assingment for my Automata Theory course.
 
@@ -21,8 +21,11 @@ Also, keep in mind that this is meant to be installed UNIX-like systems only.
 tinyPoi uses two data types:
 
 >'cad' for cadena (string)
+
 >works pretty much as you'd expect it to.
+
 >'num' for número (number)
+
 >includes both integer and floating point numbers.
 
 Data types can also be converted to array structures of the same type appending '[]' to the type name.
@@ -54,7 +57,9 @@ Data types can also be converted to array structures of the same type appending 
 Keywords change from English to Spanish:
 
 >'if' => 'si'
+
 >'else if' => 'sino'
+
 >'else' => 'no'
 
 >All of there work the way you'd expect
@@ -76,10 +81,13 @@ Conditions end in ; (semi-colon);
 Keywords change from English to Spanish:
 
 >'while' => 'mientras'
+
 >works exactly like a while would
 
 >'for' => 'para'
+
 >there's one little difference here: the expressions on both sides of the cycle's declaration are optional and the last expression of the declaration does not need a terminator semi-colon.
+
 >also, para can be invoked with an array as parameter, then given the refefrence operator (=>) and a variable name to use inside its cycles, pretty much a foreach
 
 
